@@ -13,6 +13,7 @@ class ResPartner(models.Model):
                                         ('name', 'ilike', record.zip)
                                     ])
                     record.zip_id = objts[0] or False
+                    record.city = objts[0].city or False
             except:
                 print("##### err init:")
                 print(record.zip)
