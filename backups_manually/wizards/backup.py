@@ -5,11 +5,11 @@ from odoo import api, fields, models
 class Backup(models.TransientModel):
     _name = 'backups.manually.backup'
     _description = 'Do backups manually'
-    
+
     def _default_bbdd(self):
         bbdd = []
         for bd in http.db_list():
-            bbdd.append((bd,bd))
+            bbdd.append((bd, bd))
         return bbdd
 
     bbdd = fields.Selection(
@@ -26,4 +26,3 @@ class Backup(models.TransientModel):
                 self.bbdd, self.compression_format)
         res = dict(type='ir.actions.act_url', url=url, target='new')
         return res
-
