@@ -16,6 +16,7 @@
         'base',
     ],
     'data': [
+        'security/backups_manually_security.xml',
         'security/ir.model.access.csv',
         'wizards/backup.xml',
     ],

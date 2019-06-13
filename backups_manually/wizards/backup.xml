@@ -10,8 +10,8 @@
                 <form string="Do manually backups">
                     <sheet>
                         <group string="" col="2">
-                            <field name="bbdd"/>
-                            <field name="compression_format"/>
+                            <field name="bbdd" required="True"/>
+                            <field name="compression_format" required="True"/>
                         </group>
                         <footer>
                             <button name="create_request"
@@ -40,7 +40,7 @@
         <menuitem id="backups_menu_act" name="Backups"
             parent="mail.mail_channel_menu_root_chat"
             action="backups_manually_action" sequence="5"
-            groups="base.group_system"/>
+            groups="backups_manually.group_backup_manually_user"/>
 
     </data>
 </odoo>
