@@ -17,16 +17,16 @@ class Backup(models.TransientModel):
         return bbdd
 
     bbdd = fields.Selection(
-                            string='Select a database',
-                            selection=_default_bbdd,)
+        string ='Select a database',
+        selection =_default_bbdd,)
     compression_format = fields.Selection(
-                                          string='Compression format',
-                                          selection=[('zip', 'zip')],
-                                          default="zip")
+        string ='Compression format',
+        selection =[('zip', 'zip')],
+        default="zip")
 
     @api.multi
     def create_request(self):
         url = '/web/binary/download_db?name=%s&backup_format=%s' % (
-                self.bbdd, self.compression_format)
+            self.bbdd, self.compression_format)
         res = dict(type='ir.actions.act_url', url=url, target='new')
         return res
