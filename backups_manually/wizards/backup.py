@@ -17,11 +17,11 @@ class Backup(models.TransientModel):
         return bbdd
 
     bbdd = fields.Selection(
-        string ='Select a database',
-        selection =_default_bbdd,)
+        string='Select a database',
+        selection=_default_bbdd,)
     compression_format = fields.Selection(
-        string ='Compression format',
-        selection =[('zip', 'zip')],
+        string='Compression format',
+        selection=[('zip', 'zip')],
         default="zip")
 
     @api.multi
