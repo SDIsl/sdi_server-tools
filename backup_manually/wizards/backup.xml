@@ -4,10 +4,10 @@
     <data noupdate="0">
 
         <record id="backups_manually_backup_view_form" model="ir.ui.view">
-            <field name="name">backups.manually.backup.view.form</field>
-            <field name="model">backups.manually.backup</field>
+            <field name="name">.manually.backup.view.form</field>
+            <field name="model">backup.manually.backup</field>
             <field name="arch" type="xml">
-                <form string="Do manually backups">
+                <form string="Do manually backup">
                     <sheet>
                         <group string="" col="2">
                             <field name="bbdd" required="True"/>
@@ -30,7 +30,7 @@
         <record id="backups_manually_action" model="ir.actions.act_window">
             <field name="name">Backups Manually</field>
             <field name="type">ir.actions.act_window</field>
-            <field name="res_model">backups.manually.backup</field>
+            <field name="res_model">backup.manually.backup</field>
             <field name="view_mode">form</field>
             <field name="view_type">form</field>
             <field name="target">new</field>

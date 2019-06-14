@@ -4,9 +4,9 @@
    :target: https://www.gnu.org/licenses/agpl
    :alt: License: AGPL-3
 
-SDi-CRM: Average Time Indicators
+SDi-Tools: Backups Manually
 
-Do backups from the backend manually.
+Do backups, from the backend, manually.
 
 Configuration
 =============

@@ -7,15 +7,13 @@ from odoo import api, fields, models
 
 
 class Backup(models.TransientModel):
-    _name = 'backups.manually.backup'
-    _description = 'Do backups manually'
+    _name = 'backup.manually.backup'
+    _description = 'Do backup manually'
 
     def _default_bbdd(self):
         bbdd = []
-        bds = http.db_list()
-        if bds:
-            for bd in bds:
-                bbdd.append((bd, bd))
+        for bd in http.db_list(True, None):
+            bbdd.append((bd, bd))
         return bbdd
 
     bbdd = fields.Selection(
