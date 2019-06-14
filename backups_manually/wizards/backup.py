@@ -12,8 +12,10 @@ class Backup(models.TransientModel):
 
     def _default_bbdd(self):
         bbdd = []
-        for bd in http.db_list():
-            bbdd.append((bd, bd))
+        bds = http.db_list()
+        if bds:
+            for bd in bds:
+                bbdd.append((bd, bd))
         return bbdd
 
     bbdd = fields.Selection(
