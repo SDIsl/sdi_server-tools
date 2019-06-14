@@ -3,7 +3,7 @@
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl.html).
 
 {
-    'name': 'SDi-Tools: Backups Manually',
+    'name': 'SDi-Tools: Backup Manually',
     'version': '11.0.1.0.1',
     'category': 'server-tools',
     'summary': """
@@ -16,7 +16,7 @@
         'base',
     ],
     'data': [
-        'security/backups_manually_security.xml',
+        'security/backup_manually_security.xml',
         'security/ir.model.access.csv',
         'wizards/backup.xml',
     ],

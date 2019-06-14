@@ -3,7 +3,7 @@
 <odoo>
     <data noupdate="0">
 
-        <record id="backups_manually_backup_view_form" model="ir.ui.view">
+        <record id="backup_manually_backup_view_form" model="ir.ui.view">
             <field name="name">.manually.backup.view.form</field>
             <field name="model">backup.manually.backup</field>
             <field name="arch" type="xml">
@@ -27,8 +27,8 @@
         </record>
 
 
-        <record id="backups_manually_action" model="ir.actions.act_window">
-            <field name="name">Backups Manually</field>
+        <record id="backup_manually_action" model="ir.actions.act_window">
+            <field name="name">Backup Manually</field>
             <field name="type">ir.actions.act_window</field>
             <field name="res_model">backup.manually.backup</field>
             <field name="view_mode">form</field>
@@ -37,10 +37,10 @@
         </record>
 
 
-        <menuitem id="backups_menu_act" name="Backups"
+        <menuitem id="backup_menu" name="Backup Manually"
             parent="mail.mail_channel_menu_root_chat"
-            action="backups_manually_action" sequence="5"
-            groups="backups_manually.group_backup_manually_user"/>
+            action="backup_manually_action" sequence="5"
+            groups="backup_manually.group_backup_manually_user"/>
 
     </data>
 </odoo>
