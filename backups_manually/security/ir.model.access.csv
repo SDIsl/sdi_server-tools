@@ -1,4 +1,0 @@
-id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
-
-access_backup,access_backup,model_backups_manually_backup,base.group_user,0,0,0,0
-access_total_backup,access_total_backup,model_backups_manually_backup,base.group_system,1,1,1,0
