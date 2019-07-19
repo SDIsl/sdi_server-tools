@@ -13,12 +13,16 @@
     'license': 'AGPL-3',
     "website": "http://www.sdi.es",
     'depends': [
-        'base',
+        'web',
     ],
     'data': [
         'security/backup_manually_security.xml',
         'security/ir.model.access.csv',
         'wizards/backup.xml',
+        'views/web_client_menu.xml',
+    ],
+    'qweb':[
+        'static/src/xml/backup_manually_user_menu.xml',
     ],
     'installable': True,
     'application': False,

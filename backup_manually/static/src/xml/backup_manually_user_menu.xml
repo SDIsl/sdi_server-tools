@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+
+    <t t-extend="UserMenu.Actions">
+        <t t-jquery="li.divider" t-operation="after">
+            <li>
+                <li><a href="#" data-menu="backup">Do Backup Manually</a></li>
+            </li>
+        </t>
+    </t>
+</templates>
