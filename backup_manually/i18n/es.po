@@ -1,0 +1,106 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* backup_manually
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 11.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-07-22 07:12+0000\n"
+"PO-Revision-Date: 2019-07-22 09:16+0200\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: es\n"
+"X-Generator: Poedit 2.0.6\n"
+
+#. module: backup_manually
+#: model:ir.actions.act_window,name:backup_manually.backup_manually_action
+#: model:ir.ui.menu,name:backup_manually.backup_menu
+msgid "Backup Manually"
+msgstr "Copias de Seguridad Manual"
+
+#. module: backup_manually
+#: model:res.groups,name:backup_manually.group_backup_manually_user
+msgid "Backup Manually User"
+msgstr "Usuario de Copias de Seguridad Manuales"
+
+#. module: backup_manually
+#: model:ir.ui.view,arch_db:backup_manually.backup_manually_backup_view_form
+msgid "Cancel"
+msgstr "Cancelar"
+
+#. module: backup_manually
+#: model:ir.model.fields,field_description:backup_manually.field_backup_manually_backup_compression_format
+msgid "Compression format"
+msgstr "Formato de compresión"
+
+#. module: backup_manually
+#: model:ir.model.fields,field_description:backup_manually.field_backup_manually_backup_create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: backup_manually
+#: model:ir.model.fields,field_description:backup_manually.field_backup_manually_backup_create_date
+msgid "Created on"
+msgstr "Creado en"
+
+#. module: backup_manually
+#: model:ir.model.fields,field_description:backup_manually.field_backup_manually_backup_display_name
+msgid "Display Name"
+msgstr "Nombre mostrado"
+
+#. module: backup_manually
+#. openerp-web
+#: code:addons/backup_manually/static/src/xml/backup_manually_user_menu.xml:7
+#, python-format
+msgid "Do Backup Manually"
+msgstr "Hacer Copia Manual"
+
+#. module: backup_manually
+#: model:ir.model,name:backup_manually.model_backup_manually_backup
+msgid "Do backup manually"
+msgstr "Hacer copia manual"
+
+#. module: backup_manually
+#: model:ir.ui.view,arch_db:backup_manually.backup_manually_backup_view_form
+msgid "Do manually backup"
+msgstr "Hacer copia manual"
+
+#. module: backup_manually
+#: model:ir.model.fields,field_description:backup_manually.field_backup_manually_backup_id
+msgid "ID"
+msgstr "ID (identificación)"
+
+#. module: backup_manually
+#: model:ir.model.fields,field_description:backup_manually.field_backup_manually_backup___last_update
+msgid "Last Modified on"
+msgstr "Última modificación en"
+
+#. module: backup_manually
+#: model:ir.model.fields,field_description:backup_manually.field_backup_manually_backup_write_uid
+msgid "Last Updated by"
+msgstr "Última actualización de"
+
+#. module: backup_manually
+#: model:ir.model.fields,field_description:backup_manually.field_backup_manually_backup_write_date
+msgid "Last Updated on"
+msgstr "Última actualización en"
+
+#. module: backup_manually
+#: model:ir.ui.view,arch_db:backup_manually.backup_manually_backup_view_form
+msgid "Search"
+msgstr "Búsqueda"
+
+#. module: backup_manually
+#: model:ir.model.fields,field_description:backup_manually.field_backup_manually_backup_bbdd
+msgid "Select a database"
+msgstr "Seleccione la Base de Datos"
+
+#. module: backup_manually
+#: selection:backup.manually.backup,compression_format:0
+msgid "zip"
+msgstr "zip"
