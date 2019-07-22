@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-22 07:12+0000\n"
-"PO-Revision-Date: 2019-07-22 09:16+0200\n"
+"POT-Creation-Date: 2019-07-22 07:29+0000\n"
+"PO-Revision-Date: 2019-07-22 09:31+0200\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -18,10 +18,19 @@ msgstr ""
 "X-Generator: Poedit 2.0.6\n"
 
 #. module: backup_manually
-#: model:ir.actions.act_window,name:backup_manually.backup_manually_action
+#: model:ir.ui.view,arch_db:backup_manually.backup_manually_backup_view_form
+msgid "Accept"
+msgstr "Aceptar"
+
+#. module: backup_manually
 #: model:ir.ui.menu,name:backup_manually.backup_menu
 msgid "Backup Manually"
 msgstr "Copias de Seguridad Manual"
+
+#. module: backup_manually
+#: model:ir.actions.act_window,name:backup_manually.backup_manually_action
+msgid "Backup Manually Asistant"
+msgstr "Asistente de Copias de Seguridad Manual"
 
 #. module: backup_manually
 #: model:res.groups,name:backup_manually.group_backup_manually_user
@@ -89,11 +98,6 @@ msgstr "Última actualización de"
 #: model:ir.model.fields,field_description:backup_manually.field_backup_manually_backup_write_date
 msgid "Last Updated on"
 msgstr "Última actualización en"
-
-#. module: backup_manually
-#: model:ir.ui.view,arch_db:backup_manually.backup_manually_backup_view_form
-msgid "Search"
-msgstr "Búsqueda"
 
 #. module: backup_manually
 #: model:ir.model.fields,field_description:backup_manually.field_backup_manually_backup_bbdd

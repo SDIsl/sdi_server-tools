@@ -15,7 +15,7 @@
                         </group>
                         <footer>
                             <button name="create_request"
-                                string="Search" type="object"
+                                string="Accept" type="object"
                                 class="btn-primary"/>
                             <button string="Cancel"
                                 class="btn-default"
@@ -28,7 +28,7 @@
 
 
         <record id="backup_manually_action" model="ir.actions.act_window">
-            <field name="name">Backup Manually</field>
+            <field name="name">Backup Manually Asistant</field>
             <field name="type">ir.actions.act_window</field>
             <field name="res_model">backup.manually.backup</field>
             <field name="view_mode">form</field>
