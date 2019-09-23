@@ -5,7 +5,6 @@
 
         <record id="group_backup_manually_user" model="res.groups">
             <field name="name">Backup Manually User</field>
-            <field name="implied_ids" eval="[(4, ref('base.group_system'))]"/>
         </record>
 
     </data>
