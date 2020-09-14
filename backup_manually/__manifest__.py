@@ -18,7 +18,7 @@
     'data': [
         'security/backup_manually_security.xml',
         'security/ir.model.access.csv',
-        'wizards/backup.xml',
+        #'wizards/backup.xml',
         'views/web_client_menu.xml',
     ],
     'qweb':[
