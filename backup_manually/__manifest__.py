@@ -13,6 +13,7 @@
     'license': 'AGPL-3',
     "website": "http://www.sdi.es",
     'depends': [
+        'mail',
         'web',
     ],
     'data': [
